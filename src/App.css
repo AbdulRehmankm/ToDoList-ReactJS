@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+form input{
+  flex-basis: 80%;
+  height: 30px;
+}
+
+form button{
+  flex-basis: 20%;
+}
+
+.uldiv{
+  width: 1170px;
+  margin: auto;
+}
+
+.uldiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.uldiv ul li{
+  color: wheat;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  position: relative;
+  text-align: left;
+  background-color: black;
+}
+
+.uldiv ul li span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.completetask{
+  text-decoration: line-through;
+  background-color: red !important;
+}
+
+
